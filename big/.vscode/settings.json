@@ -1,0 +1,40 @@
+{
+    "C_Cpp.intelliSenseEngine": "default",
+    "idf.adapterTargetName": "esp32",
+    "idf.customExtraPaths": "c:\\.drivers\\esp-idf-v5.2.2\\tools\\tools\\xtensa-esp-elf-gdb\\14.2_20240403\\xtensa-esp-elf-gdb\\bin;c:\\.drivers\\esp-idf-v5.2.2\\tools\\tools\\riscv32-esp-elf-gdb\\14.2_20240403\\riscv32-esp-elf-gdb\\bin;c:\\.drivers\\esp-idf-v5.2.2\\tools\\tools\\xtensa-esp-elf\\esp-13.2.0_20230928\\xtensa-esp-elf\\bin;c:\\.drivers\\esp-idf-v5.2.2\\tools\\tools\\riscv32-esp-elf\\esp-13.2.0_20230928\\riscv32-esp-elf\\bin;c:\\.drivers\\esp-idf-v5.2.2\\tools\\tools\\esp32ulp-elf\\2.35_20220830\\esp32ulp-elf\\bin;c:\\.drivers\\esp-idf-v5.2.2\\tools\\tools\\cmake\\3.24.0\\bin;c:\\.drivers\\esp-idf-v5.2.2\\tools\\tools\\openocd-esp32\\v0.12.0-esp32-20240318\\openocd-esp32\\bin;c:\\.drivers\\esp-idf-v5.2.2\\tools\\tools\\ninja\\1.11.1;c:\\.drivers\\esp-idf-v5.2.2\\tools\\tools\\idf-exe\\1.0.3;c:\\.drivers\\esp-idf-v5.2.2\\tools\\tools\\ccache\\4.8\\ccache-4.8-windows-x86_64;c:\\.drivers\\esp-idf-v5.2.2\\tools\\tools\\dfu-util\\0.11\\dfu-util-0.11-win64;c:\\.drivers\\esp-idf-v5.2.2\\tools\\tools\\esp-rom-elfs\\20230320",
+    "idf.customExtraVars": {
+        "OPENOCD_SCRIPTS": "c:\\.drivers\\esp-idf-v5.2.2\\tools\\tools\\openocd-esp32\\v0.12.0-esp32-20240318/openocd-esp32/share/openocd/scripts",
+        "IDF_CCACHE_ENABLE": "1",
+        "ESP_ROM_ELF_DIR": "c:\\.drivers\\esp-idf-v5.2.2\\tools\\tools\\esp-rom-elfs\\20230320/"
+    },
+    "idf.espIdfPathWin": "c:\\.drivers\\esp-idf-v5.2.2",
+    "idf.openOcdConfigs": [
+        "board/esp32-wrover-kit-3.3v.cfg"
+    ],
+    "idf.pythonBinPathWin": "c:\\.drivers\\esp-idf-v5.2.2\\tools\\python_env\\idf5.2_py3.11_env\\Scripts\\python.exe",
+    "idf.toolsPathWin": "c:\\.drivers\\esp-idf-v5.2.2\\tools",
+    "files.associations": {
+        "*.txt": "plaintext",
+        "esp_http_server.h": "c",
+        "esp_camera.h": "c",
+        "esp_timer.h": "c",
+        "sdkconfig.h": "c",
+        "esp_event.h": "c",
+        "esp_wifi.h": "c",
+        "adc.h": "c",
+        "adc_oneshot.h": "c",
+        "*.inc": "c",
+        "bit": "c",
+        "compare": "c",
+        "cstddef": "c",
+        "list": "c",
+        "string": "c",
+        "optional": "c",
+        "limits": "c",
+        "memory": "c",
+        "new": "c",
+        "functional": "c"
+    },
+    "idf.flashType": "UART",
+    "idf.portWin": "COM3"
+}
